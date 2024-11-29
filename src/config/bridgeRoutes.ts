@@ -428,6 +428,45 @@ const BridgeTokenRoutesWormhole: IBridgeTokenRoutes[] = [
     ],
   },
   {
+    from: "NEAR",
+    to: "Base",
+    channel: "Wormhole",
+    symbols: ["USDC"],
+    routes: [
+      {
+        fromAddress: "39.contract.portalbridge.near",
+        toAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        symbol: "USDC",
+      },
+    ],
+  },
+  {
+    from: "NEAR",
+    to: "Polygon",
+    channel: "Wormhole",
+    symbols: ["USDC"],
+    routes: [
+      {
+        fromAddress: "41.contract.portalbridge.near",
+        toAddress: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        symbol: "USDC",
+      },
+    ],
+  },
+  {
+    from: "NEAR",
+    to: "Optimism",
+    channel: "Wormhole",
+    symbols: ["USDC"],
+    routes: [
+      {
+        fromAddress: "40.contract.portalbridge.near",
+        toAddress: "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+        symbol: "USDC",
+      },
+    ],
+  },
+  {
     from: "Arbitrum",
     to: "NEAR",
     channel: "Wormhole",
@@ -462,6 +501,45 @@ const BridgeTokenRoutesWormhole: IBridgeTokenRoutes[] = [
       {
         fromAddress: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         toAddress: "38.contract.portalbridge.near",
+        symbol: "USDC",
+      },
+    ],
+  },
+  {
+    from: "Base",
+    to: "NEAR",
+    channel: "Wormhole",
+    symbols: ["USDC"],
+    routes: [
+      {
+        fromAddress: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        toAddress: "39.contract.portalbridge.near",
+        symbol: "USDC",
+      },
+    ],
+  },
+  {
+    from: "Polygon",
+    to: "NEAR",
+    channel: "Wormhole",
+    symbols: ["USDC"],
+    routes: [
+      {
+        fromAddress: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        toAddress: "41.contract.portalbridge.near",
+        symbol: "USDC",
+      },
+    ],
+  },
+  {
+    from: "Optimism",
+    to: "NEAR",
+    channel: "Wormhole",
+    symbols: ["USDC"],
+    routes: [
+      {
+        fromAddress: "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+        toAddress: "40.contract.portalbridge.near",
         symbol: "USDC",
       },
     ],
