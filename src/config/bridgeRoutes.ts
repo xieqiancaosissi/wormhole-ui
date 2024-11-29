@@ -421,7 +421,7 @@ const BridgeTokenRoutesWormhole: IBridgeTokenRoutes[] = [
     symbols: ["USDC"],
     routes: [
       {
-        fromAddress: "35.contract.portalbridge.near",
+        fromAddress: "38.contract.portalbridge.near",
         toAddress: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
         symbol: "USDC",
       },
@@ -461,7 +461,7 @@ const BridgeTokenRoutesWormhole: IBridgeTokenRoutes[] = [
     routes: [
       {
         fromAddress: "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
-        toAddress: "35.contract.portalbridge.near",
+        toAddress: "38.contract.portalbridge.near",
         symbol: "USDC",
       },
     ],
